@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgot3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/teal_200"
+            android:scaleType="fitCenter">
+
+        </ImageView>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tuser3"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Use Strong Password"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                tools:layout_editor_absoluteX="170dp"
+                tools:layout_editor_absoluteY="54dp" />
+
+            <TextView
+                android:id="@+id/error4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="@color/design_default_color_error"
+                android:text=""
+                android:layout_marginBottom="20dp"
+                ></TextView>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editTextTextPassword2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    app:backgroundTint="@color/teal_300"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    tools:layout_editor_absoluteX="84dp"
+                    tools:layout_editor_absoluteY="504dp" />
+
+                <ImageView
+                    android:id="@+id/hide2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="35dp"
+                    android:onClick="viewch2"
+                    android:layout_height="35dp"
+                    android:visibility="invisible"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/ic_baseline_remove_red_eye_24"
+                    android:layout_alignParentRight="true"></ImageView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/editTextTextPassword3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    app:backgroundTint="@color/teal_300"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    tools:layout_editor_absoluteX="86dp"
+                    tools:layout_editor_absoluteY="422dp" />
+
+
+                <ImageView
+                    android:id="@+id/hide3"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="35dp"
+                    android:onClick="viewch3"
+                    android:layout_height="35dp"
+                    android:visibility="invisible"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/ic_baseline_remove_red_eye_24"
+                    android:layout_alignParentRight="true"></ImageView>
+
+            </RelativeLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/submit3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:backgroundTint="@color/cardview_dark_background"
+                app:cornerRadius="10dp"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteX="170dp"
+                tools:layout_editor_absoluteY="585dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@color/teal_200"></View>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="Or"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+
+                    />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="2dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@color/teal_200"></View>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cancle"
+                android:onClick="cancle3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"></TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/iuser3"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/whitelogowithoutbg"></ImageView>
+
+    <TextView
+        android:id="@+id/tuser3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iuser3"
+        android:text="Student Ezzy"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"></TextView>
+</RelativeLayout>

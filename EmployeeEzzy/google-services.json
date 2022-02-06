@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831827766083",
+    "project_id": "studentezzy-a3633",
+    "storage_bucket": "studentezzy-a3633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831827766083:android:a946e41a9282b03cbf5df6",
+        "android_client_info": {
+          "package_name": "com.example.employeeezzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831827766083-pe3icrhjnir1mg3tiutuib1vu6h3o1b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfsEDI-w0oOdX5ZUp6aNT5bkKSLJaXxh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831827766083-pe3icrhjnir1mg3tiutuib1vu6h3o1b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

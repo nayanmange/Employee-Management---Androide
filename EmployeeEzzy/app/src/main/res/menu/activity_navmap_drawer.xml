@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_dep"
+            android:icon="@drawable/ic_baseline_create_new_folder_24"
+            android:title="Add New Std" />
+        <item
+            android:id="@+id/nav_depa"
+            android:icon="@drawable/ic_baseline_description_24"
+            android:title="All Std" />
+        <item
+            android:id="@+id/nav_emp"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Add New Student" />
+        <item
+            android:id="@+id/nav_empa"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="All Student" />
+        <item
+            android:id="@+id/nav_sal"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+            android:title="PDF" />
+        <item
+            android:id="@+id/nav_con"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/nav_abu"
+            android:icon="@drawable/ic_baseline_article_24"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Logout" />
+
+    </group>
+</menu>
